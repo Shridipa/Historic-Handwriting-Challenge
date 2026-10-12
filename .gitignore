@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Challenge data and local copies of the source archive
+/data/
+/images/
+/images.zip
+/road-barbados-historic-handwriting-challenge*
+
+# Training outputs, checkpoints, and generated decoding caches
+/runs/
+*.pt
+*.pth
+*.npz
+*.onnx
+
+.DS_Store
